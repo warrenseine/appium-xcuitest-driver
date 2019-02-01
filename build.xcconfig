@@ -1,9 +1,0 @@
-HERE_BUILD=/Volumes/Sauce/selenium/node_modules/appium-xcuitest-driver/WebDriverAgent-build
-HERE_INTERMEDIATES=/Volumes/Sauce/selenium/node_modules/appium-xcuitest-driver/WebDriverAgent-build/Intermediates
-
-/// Paths
-/// the following paths are enough to redirect everything to $HERE_BUILD
-MODULE_CACHE_DIR    = /Volumes/Sauce/selenium/node_modules/appium-xcuitest-driver/WebDriverAgent-build/DerivedData/ModuleCache
-OBJROOT             = /Volumes/Sauce/selenium/node_modules/appium-xcuitest-driver/WebDriverAgent-build
-SHARED_PRECOMPS_DIR = /Volumes/Sauce/selenium/node_modules/appium-xcuitest-driver/WebDriverAgent-build/PrecompiledHeaders
-SYMROOT             = /Volumes/Sauce/selenium/node_modules/appium-xcuitest-driver/WebDriverAgent-build/Products
