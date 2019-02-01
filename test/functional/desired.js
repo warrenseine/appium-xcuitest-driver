@@ -57,6 +57,9 @@ if (process.env.CLOUD) {
   GENERIC_CAPS.build = process.env.SAUCE_BUILD;
   GENERIC_CAPS.showIOSLog = false;
   GENERIC_CAPS[process.env.APPIUM_BUNDLE_CAP || 'appium-version'] = {'appium-url': 'sauce-storage:appium.zip'};
+  GENERIC_CAPS.derivedDataPath = '/Volumes/Sauce/selenium/node_modules/appium-xcuitest-driver/WebDriverAgent-build';
+  GENERIC_CAPS.xcodeConfigFile = '/Volumes/Sauce/selenium/node_modules/appium-xcuitest-driver/build.xcconfig';
+  GENERIC_CAPS.usePrebuiltWDA = true;
   // TODO: If it's SAUCE_RDC add the appium staging URL
 
   // `name` will be set during session initialization

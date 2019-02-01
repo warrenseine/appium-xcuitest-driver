@@ -2,7 +2,7 @@ node_modules
 build
 coverage
 *.log
-*.xcconfig
+#*.xcconfig
 .DS_Store
 ci-metrics
 package-lock.json*
