@@ -51,7 +51,7 @@ jobs:
       script: $(npm bin)/gulp sauce-storage-upload
 
     # Sauce Emusim tests
-    - stage: "[CRON] Sauce Emusim tests"
+    - stage: "[CRON] Sauce Emusim testss"
       # if: type = cron
       os: linux
       name: Basic, device 0
