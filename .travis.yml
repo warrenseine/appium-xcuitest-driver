@@ -78,7 +78,7 @@ jobs:
       env: CLOUD=1 SAUCE_EMUSIM_DEVICE_INDEX=4 TEST=functional/basic
 
     - stage:
-      if: type = cron
+      # if: type = cron
       os: linux
       name: Web, device 0
       env: CLOUD=1 SAUCE_EMUSIM_DEVICE_INDEX=0 TEST=functional/web
@@ -86,28 +86,28 @@ jobs:
         sauce_connect:
           no_ssl_bump_domains: localhost
     - stage:
-      if: type = cron
+      # if: type = cron
       os: linux
       name: Web, device 1
       env: CLOUD=1 SAUCE_EMUSIM_DEVICE_INDEX=1 TEST=functional/web
       addons:
         *sc
     - stage:
-      if: type = cron
+      # if: type = cron
       os: linux
       name: Web, device 2
       env: CLOUD=1 SAUCE_EMUSIM_DEVICE_INDEX=2 TEST=functional/web
       addons:
         *sc
     - stage:
-      if: type = cron
+      # if: type = cron
       os: linux
       name: Web, device 3
       env: CLOUD=1 SAUCE_EMUSIM_DEVICE_INDEX=3 TEST=functional/web
       addons:
         *sc
     - stage:
-      if: type = cron
+      # if: type = cron
       os: linux
       name: Web, device 4
       env: CLOUD=1 SAUCE_EMUSIM_DEVICE_INDEX=4 TEST=functional/web
