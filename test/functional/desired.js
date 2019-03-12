@@ -93,6 +93,7 @@ const SETTINGS_CAPS = _.defaults({
 const SAFARI_CAPS = _.defaults({
   browserName: 'Safari',
   testobject_api_key: process.env.SAUCE_RDC_WEB_ACCESS_KEY,
+  // useNewWDA: true,
 }, GENERIC_CAPS, REAL_DEVICE_CAPS);
 
 const TESTAPP_CAPS = _.defaults({
