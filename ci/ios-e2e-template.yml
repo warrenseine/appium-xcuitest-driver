@@ -3,9 +3,9 @@ parameters:
     script: 'npx mocha --timeout 480000 build/test/functional/ -g @skip-ci -i --exit'
     name: ios-e2e-test
     dependsOn: ''
-    iosVersion: 12.1
-    xcodeVersion: 10.1
-    deviceName: 'iPhone X'
+    iosVersion: 12.2
+    xcodeVersion: 10.1_beta
+    deviceName: 'iPhone XS Max'
 
 jobs:
   - job: ${{ parameters.name }}
