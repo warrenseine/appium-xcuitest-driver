@@ -34,7 +34,7 @@
     "WebDriverAgent"
   ],
   "dependencies": {
-    "@babel/runtime": "^7.0.0",
+    "@babel/runtime": "^7.4.0",
     "appium-base-driver": "^3.0.0",
     "appium-ios-driver": "^4.0.0",
     "appium-ios-simulator": "^3.9.0",
