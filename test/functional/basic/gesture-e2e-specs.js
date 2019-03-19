@@ -15,6 +15,7 @@ chai.use(chaiAsPromised);
 
 describe('XCUITestDriver - gestures', function () {
   this.timeout(MOCHA_TIMEOUT);
+  this.retries(2);
 
   let driver;
 
